@@ -203,9 +203,10 @@ header{
     background-color: #fff;
 }
 .second-brain-main{
-      padding:62px 120px;
+    padding:62px 120px;
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
+    
 }
 .second-brain-image img{
    width: 600px;
@@ -213,7 +214,7 @@ header{
 }
 .second-brain-content{
    padding-top: 120px;
-   padding-left: 60px;
+   padding-left: 20px;
 }
 
 .second-brain-content h5{
