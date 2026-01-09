@@ -55,7 +55,7 @@ nav .menu li a{
 
 .btn:hover{
             background-color: transparent;
-            border:1px solid #fff;
+            border:1px solid #469165;
             color: #469165;
             cursor: pointer;
 }
@@ -134,3 +134,61 @@ header{
 }
 
 
+/**  structure  **/
+
+.structure{
+            padding:62px 120px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+}
+
+.structure h2{
+            font-size: 48px;
+            font-weight: 800;
+            gap:16px;
+            color: #001931;
+}
+.structure p{
+            font-size: 16px;
+            line-height: 20px;
+            padding: 20px;
+            color: #627382;
+}
+.structure-content{
+display: flex;
+justify-content: space-between;
+gap: 16px;
+}
+.card{
+        
+width: 322px;
+height: 300px;
+justify-content: center;
+align-items: center;
+padding: 24px;
+border-radius: 8px;
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+
+}
+.structure-content .card-image{
+            background-color:#F95555 ;
+            width: 60px;
+            height: 60px;
+            line-height: 80px;
+            margin: 20px auto;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+}
+.card h3{
+   font-size: 24px;
+   font-weight: 600;
+   color: #001931;
+}
+
+.card p{
+     font-size: 16px;
+     color: #627382;   
+     text-align: left;    
+}
