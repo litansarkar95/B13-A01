@@ -140,7 +140,7 @@ header{
 /**  structure  **/
 
 .structure{
-            padding:62px 120px;
+            padding:62px  120px 0  120px;
             align-items: center;
             justify-content: center;
             text-align: center;
@@ -171,7 +171,9 @@ header{
     align-items: center;
     padding: 24px;
     border-radius: 8px;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+   box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.06);
+
+
 
 }
 .structure-content .card-image{
@@ -198,10 +200,12 @@ header{
 
 /** second brain */
 .second-brain{
-    padding:62px 120px;
+    background-color: #fff;
+}
+.second-brain-main{
+      padding:62px 120px;
     display: flex;
    justify-content: space-between;
-      
 }
 .second-brain-image img{
    width: 600px;
@@ -216,6 +220,7 @@ header{
    color: #469165;
    font-size: 16px;
    font-weight: 600;
+   text-transform: uppercase;
 }
 
 .second-brain-content h2{
